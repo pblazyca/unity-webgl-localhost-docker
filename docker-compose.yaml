@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  webgl-app:
+    container_name: unity-localhost-webgl
+    image: unity-localhost-webgl
+    build: ./source/
+    ports:
+      - "4044:80"
